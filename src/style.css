@@ -44,14 +44,14 @@ nav {
 }
 
 nav > button {
-    background-color: #F3FAE7;
+    background-color: #FEFAE7;
     padding: 0 2rem;
     border: none;
     border-radius: 15px 15px 0 0;
 }
 
 #content {
-    background-color: #F3FAE7;
+    background-color: #FEFAE7;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -59,3 +59,18 @@ nav > button {
     padding: 1rem;
     border-radius: 10px;
 }
+
+.food_menu_header,
+.drink_menu_header {
+    font-size: 4rem;
+    border-bottom: #413026 solid 1px;
+}
+
+.menu_item {
+    padding: 1rem;
+}
+
+.menu_item p {
+    font-size: 1.25rem;
+}
+

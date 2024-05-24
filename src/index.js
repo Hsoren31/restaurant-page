@@ -1,4 +1,6 @@
 import {homeHeader, homeImg, homeText} from './home_page';
+import { mainMenu, menuImg, drinkMenu } from './menu_page';
+
 import './style.css';
 
 const homeButton = document.getElementById('home');
@@ -13,8 +15,11 @@ homeButton.addEventListener('click', () => {
 
 menuButton.addEventListener('click', () => {
     contentDiv.innerHTML = '';
+    contentDiv.append(mainMenu(), drinkMenu(), menuImg());
+
 });
 
 aboutButton.addEventListener('click', () => {
     contentDiv.innerHTML = '';
 });
+
